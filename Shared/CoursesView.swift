@@ -11,7 +11,9 @@ struct CoursesView: View {
     var body: some View {
         List(0 ..< 5) { item in
             CourseRow()
-        }.listStyle(InsetGroupedListStyle())
+        }
+        .listStyle(InsetGroupedListStyle())
+        .navigationTitle("Courses")
     }
 }
 
