@@ -45,6 +45,8 @@
 		A4FBC93924D32CB300CB6BB5 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC92C24D32CB300CB6BB5 /* CourseSection.swift */; };
 		A4FBC93A24D32CB300CB6BB5 /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC92D24D32CB300CB6BB5 /* LivestreamSection.swift */; };
 		A4FBC93B24D32CB300CB6BB5 /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC92D24D32CB300CB6BB5 /* LivestreamSection.swift */; };
+		A4FBC93D24D32E6500CB6BB5 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC93C24D32E6500CB6BB5 /* VisualEffectBlur.swift */; };
+		A4FBC93F24D32E6E00CB6BB5 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC93E24D32E6E00CB6BB5 /* VisualEffectBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 		A4FBC92B24D32CB300CB6BB5 /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		A4FBC92C24D32CB300CB6BB5 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
 		A4FBC92D24D32CB300CB6BB5 /* LivestreamSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivestreamSection.swift; sourceTree = "<group>"; };
+		A4FBC93C24D32E6500CB6BB5 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		A4FBC93E24D32E6E00CB6BB5 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,7 @@
 		A45840F124D2668C00414B82 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				A4FBC93C24D32E6500CB6BB5 /* VisualEffectBlur.swift */,
 				A45840F224D2668C00414B82 /* Info.plist */,
 			);
 			path = iOS;
@@ -178,6 +183,7 @@
 		A45840F824D2668C00414B82 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				A4FBC93E24D32E6E00CB6BB5 /* VisualEffectBlur.swift */,
 				A45840F924D2668C00414B82 /* Info.plist */,
 				A45840FA24D2668C00414B82 /* macOS.entitlements */,
 			);
@@ -407,6 +413,7 @@
 				A4D1C02E24D279D4000E8D37 /* CourseRow.swift in Sources */,
 				A4FBC93224D32CB300CB6BB5 /* GradientModel.swift in Sources */,
 				A458411124D2668C00414B82 /* DesignCodeCourseApp.swift in Sources */,
+				A4FBC93D24D32E6500CB6BB5 /* VisualEffectBlur.swift in Sources */,
 				A4D1C03124D27BE3000E8D37 /* CoursesView.swift in Sources */,
 				A4ECA0A124D2838C00930BF7 /* CourseList.swift in Sources */,
 			);
@@ -431,6 +438,7 @@
 				A4D1C02F24D279D4000E8D37 /* CourseRow.swift in Sources */,
 				A4FBC93324D32CB300CB6BB5 /* GradientModel.swift in Sources */,
 				A458411224D2668C00414B82 /* DesignCodeCourseApp.swift in Sources */,
+				A4FBC93F24D32E6E00CB6BB5 /* VisualEffectBlur.swift in Sources */,
 				A4D1C03224D27BE3000E8D37 /* CoursesView.swift in Sources */,
 				A4ECA0A224D2838C00930BF7 /* CourseList.swift in Sources */,
 			);
