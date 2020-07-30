@@ -25,6 +25,8 @@
 		A4ECA09D24D2826100930BF7 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ECA09B24D2826100930BF7 /* CourseItem.swift */; };
 		A4ECA0A124D2838C00930BF7 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ECA0A024D2838C00930BF7 /* CourseList.swift */; };
 		A4ECA0A224D2838C00930BF7 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ECA0A024D2838C00930BF7 /* CourseList.swift */; };
+		A4FBC91E24D2AB3400CB6BB5 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC91D24D2AB3400CB6BB5 /* Course.swift */; };
+		A4FBC91F24D2AB3400CB6BB5 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC91D24D2AB3400CB6BB5 /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,7 @@
 		A4D1C03324D27C85000E8D37 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		A4ECA09B24D2826100930BF7 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 		A4ECA0A024D2838C00930BF7 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		A4FBC91D24D2AB3400CB6BB5 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 				A4ECA09E24D2837500930BF7 /* Navigation */,
 				A4ECA09F24D2837D00930BF7 /* Items */,
 				A4D1C03024D27BE3000E8D37 /* CoursesView.swift */,
+				A4FBC91D24D2AB3400CB6BB5 /* Course.swift */,
 				A4ECA0A024D2838C00930BF7 /* CourseList.swift */,
 				A45840EA24D2668C00414B82 /* Assets.xcassets */,
 			);
@@ -344,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FBC91E24D2AB3400CB6BB5 /* Course.swift in Sources */,
 				A4D1C03424D27C85000E8D37 /* Sidebar.swift in Sources */,
 				A4ECA09C24D2826100930BF7 /* CourseItem.swift in Sources */,
 				A458411324D2668C00414B82 /* ContentView.swift in Sources */,
@@ -358,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FBC91F24D2AB3400CB6BB5 /* Course.swift in Sources */,
 				A4D1C03524D27C85000E8D37 /* Sidebar.swift in Sources */,
 				A4ECA09D24D2826100930BF7 /* CourseItem.swift in Sources */,
 				A458411424D2668C00414B82 /* ContentView.swift in Sources */,
