@@ -21,10 +21,10 @@ struct ContentView: View {
             Text("SwiftUI for iOS 14").fontWeight(.bold).foregroundColor(Color.white)
             Text("20 Sections").font(.footnote).foregroundColor(Color.white)
         }
-        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
-        .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
-        .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+        .padding(.all)
+        .background(Color.blue)
+        .cornerRadius(20.0)
+        .shadow(radius: 10)
     }
 }
 
@@ -33,7 +33,7 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
             ContentView()
-                .previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/200.0/*@END_MENU_TOKEN@*/))
+                .previewLayout(.fixed(width: 200.0, height: 200.0))
                 .preferredColorScheme(.dark)
                 
         }
