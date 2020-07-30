@@ -47,6 +47,7 @@
 		A4FBC93B24D32CB300CB6BB5 /* LivestreamSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC92D24D32CB300CB6BB5 /* LivestreamSection.swift */; };
 		A4FBC93D24D32E6500CB6BB5 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC93C24D32E6500CB6BB5 /* VisualEffectBlur.swift */; };
 		A4FBC93F24D32E6E00CB6BB5 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC93E24D32E6E00CB6BB5 /* VisualEffectBlur.swift */; };
+		A4FBC94124D33F1F00CB6BB5 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBC94024D33F1F00CB6BB5 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		A4FBC92D24D32CB300CB6BB5 /* LivestreamSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivestreamSection.swift; sourceTree = "<group>"; };
 		A4FBC93C24D32E6500CB6BB5 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		A4FBC93E24D32E6E00CB6BB5 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		A4FBC94024D33F1F00CB6BB5 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				A45840E924D2668B00414B82 /* ContentView.swift */,
+				A4FBC94024D33F1F00CB6BB5 /* TabBar.swift */,
 				A4D1C03324D27C85000E8D37 /* Sidebar.swift */,
 			);
 			path = Navigation;
@@ -400,6 +403,7 @@
 			files = (
 				A4FBC91E24D2AB3400CB6BB5 /* Course.swift in Sources */,
 				A4FBC93024D32CB300CB6BB5 /* TutorialSection.swift in Sources */,
+				A4FBC94124D33F1F00CB6BB5 /* TabBar.swift in Sources */,
 				A4D1C03424D27C85000E8D37 /* Sidebar.swift in Sources */,
 				A4ECA09C24D2826100930BF7 /* CourseItem.swift in Sources */,
 				A4FBC93A24D32CB300CB6BB5 /* LivestreamSection.swift in Sources */,
